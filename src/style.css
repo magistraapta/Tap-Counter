@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.head {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.head > h1 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display > h1 {
+    font-size: 50px;
+}
+
+.tombol {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tombol > button {
+    border-style: none;
+    background-color: #3176DC;
+    color: white;
+    padding: 8px 42px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nama > p {
+    font-size: 10px;
+}
+
+.desc{
+    display: flex;
+    justify-content: center;
+}
+
+.desc > p {
+    text-align: center;
+    font-weight: 300;
+}
+
+
+
